@@ -1,0 +1,20 @@
+[
+  {
+    "name": "AdBotPro ",
+    "url": "https://adbotpro.appdevs.net/admin",
+    "username": "admin@appdevs.net",
+    "password": "appdevs"
+  },
+  {
+    "name": "Handiman",
+    "url": "https://handiman.appdevs.net/admin",
+    "username": "superadmin@appdevs.net",
+    "password": "appdevsx"
+  },
+  {
+    "name": "MoneyMove",
+    "url": "https://moneymove.appdevs.net/admin",
+    "username": "superadmin@appdevs.net",
+    "password": "appdevs"
+  }
+]
