@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test-run": "yarn cypress run --e2e",
-    "generate-report": "node cypress/CustomReport/generateHtmlReport.js",
+    "generate-report": "node cypress/utils/generateHtmlReport.js",
     "send-mail": "node cypress/utils/mailSender.js",
     "daily-demo-test": "run-s test-run && yarn generate-report && yarn send-mail"
   },
