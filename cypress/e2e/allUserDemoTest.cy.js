@@ -1,5 +1,5 @@
 // Import data
-const sites = require('../fixtures/allUserDemoCredentials.json');
+const sites = require('../fixtures/allUserTestDemoCredentials.json');
 const { format } = require('date-fns');
 
 let results = []; // Accumulate results across all tests

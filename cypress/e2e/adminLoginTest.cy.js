@@ -1,6 +1,6 @@
 // Import data
 
-const sites = require('../fixtures/adminCredentials.json');
+const sites = require('../fixtures/adminTestCrendentials.json');
 const  {format} = require('date-fns')
 
 let results = [];

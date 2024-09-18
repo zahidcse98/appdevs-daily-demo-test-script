@@ -217,8 +217,7 @@ const generateHtmlReport = (results, fileName, totalTests, totalSuccess, totalFa
 };
 
 // Read all JSON files from the 'results' directory
-const resultsDir = path.join(__dirname, 'Json');
-console.log("🚀 ~ resultsDir:", resultsDir)
+const resultsDir = path.join(__dirname, '../CustomReport/Json');
 const resultFiles = fs.readdirSync(resultsDir).filter(file => file.endsWith('.json'));
 
 resultFiles.forEach(file => {
@@ -236,11 +235,11 @@ resultFiles.forEach(file => {
     const htmlReport = generateHtmlReport(results, file, totalTests, totalSuccess, totalFailed);
     
     // Save the HTML report
-    const outputFilePath = path.join(__dirname, 'Html', `${path.basename(file, '.json')}.html`);
+    const outputFilePath = path.join(__dirname, '../CustomReport/Html', `${path.basename(file, '.json')}.html`);
     writeFileSync(outputFilePath, htmlReport, 'utf8');
     
 });
 
 
-const JsonFilesDir = path.join(__dirname, 'Json');
+const JsonFilesDir = path.join(__dirname, '../CustomReport/Json');
 deleteJsonFiles(JsonFilesDir);
