@@ -15,7 +15,7 @@ cypress/downloads/
 cypress.env.json
 
 cypress/CustomReport
-
+cypress/screenshots
 cypress/CustomReport
 # Allure Reports
 allure-results/
